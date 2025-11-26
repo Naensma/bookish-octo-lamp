@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: default
+  labels:
+    app: app
+data:
+  DB_PASSWORD: supersecret
+  API_KEY: "12345"
